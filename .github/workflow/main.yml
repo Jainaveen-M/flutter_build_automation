@@ -31,10 +31,5 @@ jobs:
           tag: v1.0.${{ github.run_number }}
           token: ${{ secrets.BUILD_TOKEN }}
 
-
-
-
-
-
 # push to master, main, develop
 # pull request on main master
