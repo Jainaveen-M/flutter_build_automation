@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@main
       - uses: actions/setup-java@main
         with:
-          java-version: '16.x'
+          java-version: '16.0'
       - uses: subosito/flutter-action@main
         with:
           flutter-version: '2.8.1'
